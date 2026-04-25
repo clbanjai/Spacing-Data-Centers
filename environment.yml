@@ -1,0 +1,9 @@
+name: space-orekit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - orekit
+  - pip
+  - pip:
+      - git+https://gitlab.orekit.org/orekit/orekit-data.git
