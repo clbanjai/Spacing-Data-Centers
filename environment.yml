@@ -4,6 +4,10 @@ channels:
 dependencies:
   - python=3.11
   - orekit
-  - pip
-  - pip:
-      - git+https://gitlab.orekit.org/orekit/orekit-data.git
+  - ipykernel
+  - jupyter
+  - scipy
+  - numpy
+  - pandas
+  - matplotlib
+prefix: /opt/conda/envs/space-orekit
