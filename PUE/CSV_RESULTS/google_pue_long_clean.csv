@@ -1,0 +1,876 @@
+period,year,quarter,location,quarterly_pue,ttm_pue,source_url
+2016 Q2,2016,Q2,"Berkeley County, South Carolina",1.13,1.13,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Changhua County, Taiwan",1.20,1.18,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Council Bluffs, Iowa",1.10,1.10,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Council Bluffs, Iowa (2nd facility)",1.11,1.12,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Douglas County, Georgia",1.12,1.11,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Dublin, Ireland",1.17,1.15,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,Fleet,1.12,1.12,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Hamina, Finland",1.12,1.11,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Lenoir, North Carolina",1.10,1.11,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Mayes County, Oklahoma",1.11,1.11,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"Quilicura, Chile",1.12,1.15,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,Singapore,1.19,1.21,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2016 Q2,2016,Q2,"The Dalles, Oregon",1.13,1.13,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Berkeley County, South Carolina",1.16,1.13,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Changhua County, Taiwan",1.20,1.18,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Council Bluffs, Iowa",1.14,1.10,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Council Bluffs, Iowa (2nd facility)",1.14,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Douglas County, Georgia",1.16,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Dublin, Ireland",1.15,1.15,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,Fleet,1.14,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Hamina, Finland",1.13,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Lenoir, North Carolina",1.12,1.11,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Mayes County, Oklahoma",1.15,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"Quilicura, Chile",1.11,1.12,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,Singapore,1.20,1.21,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"St. Ghislain, Belgium",1.10,1.09,https://datacenters.google/efficiency/
+2016 Q3,2016,Q3,"The Dalles, Oregon",1.13,1.13,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Berkeley County, South Carolina",1.10,1.13,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Changhua County, Taiwan",1.15,1.17,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Council Bluffs, Iowa",1.10,1.10,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Council Bluffs, Iowa (2nd facility)",1.10,1.11,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Douglas County, Georgia",1.11,1.12,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Dublin, Ireland",1.17,1.15,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,Fleet,1.11,1.12,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Hamina, Finland",1.12,1.12,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Mayes County, Oklahoma",1.11,1.12,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"Quilicura, Chile",1.11,1.11,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,Singapore,1.19,1.20,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2016 Q4,2016,Q4,"The Dalles, Oregon",1.12,1.13,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Berkeley County, South Carolina",1.10,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Changhua County, Taiwan",1.12,1.16,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Council Bluffs, Iowa (2nd facility)",1.10,1.11,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Douglas County, Georgia",1.11,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Dublin, Ireland",1.12,1.13,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Eemshaven, Netherlands",1.22,,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,Fleet,1.11,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Hamina, Finland",1.10,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Mayes County, Oklahoma",1.11,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"Quilicura, Chile",1.14,1.12,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,Singapore,1.18,1.19,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2017 Q1,2017,Q1,"The Dalles, Oregon",1.14,1.13,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Berkeley County, South Carolina",1.13,1.12,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Changhua County, Taiwan",1.15,1.15,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Council Bluffs, Iowa (2nd facility)",1.10,1.11,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Douglas County, Georgia",1.12,1.12,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Dublin, Ireland",1.12,1.13,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Eemshaven, Netherlands",1.10,,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,Fleet,1.11,1.12,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Hamina, Finland",1.09,1.11,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Mayes County, Oklahoma",1.12,1.12,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"Quilicura, Chile",1.14,1.13,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,Singapore,1.18,1.19,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2017 Q2,2017,Q2,"The Dalles, Oregon",1.14,1.13,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Berkeley County, South Carolina",1.16,1.13,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Changhua County, Taiwan",1.17,1.15,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Council Bluffs, Iowa",1.15,1.11,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Council Bluffs, Iowa (2nd facility)",1.12,1.10,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Douglas County, Georgia",1.14,1.12,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Dublin, Ireland",1.11,1.12,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Eemshaven, Netherlands",1.11,,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,Fleet,1.13,1.12,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Hamina, Finland",1.09,1.10,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Lenoir, North Carolina",1.12,1.10,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Mayes County, Oklahoma",1.14,1.12,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"Quilicura, Chile",1.14,1.13,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,Singapore,1.17,1.18,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2017 Q3,2017,Q3,"The Dalles, Oregon",1.15,1.14,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Berkeley County, South Carolina",1.11,1.13,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Changhua County, Taiwan",1.13,1.14,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Council Bluffs, Iowa",1.15,1.12,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Council Bluffs, Iowa (2nd facility)",1.08,1.10,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Douglas County, Georgia",1.10,1.12,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Dublin, Ireland",1.11,1.11,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Eemshaven, Netherlands",1.12,1.13,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,Fleet,1.10,1.11,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Mayes County, Oklahoma",1.09,1.12,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"Quilicura, Chile",1.13,1.14,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,Singapore,1.17,1.18,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2017 Q4,2017,Q4,"The Dalles, Oregon",1.14,1.14,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Berkeley County, South Carolina",1.10,1.12,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Changhua County, Taiwan",1.12,1.14,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Council Bluffs, Iowa",1.14,1.13,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Council Bluffs, Iowa (2nd facility)",1.09,1.10,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Douglas County, Georgia",1.10,1.11,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Dublin, Ireland",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Eemshaven, Netherlands",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,Fleet,1.10,1.11,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Mayes County, Oklahoma",1.08,1.11,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"Quilicura, Chile",1.14,1.14,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,Singapore,1.16,1.17,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2018 Q1,2018,Q1,"The Dalles, Oregon",1.14,1.14,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Berkeley County, South Carolina",1.13,1.12,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Changhua County, Taiwan",1.16,1.14,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Council Bluffs, Iowa",1.13,1.14,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Council Bluffs, Iowa (2nd facility)",1.10,1.10,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Douglas County, Georgia",1.12,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Dublin, Ireland",1.12,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Eemshaven, Netherlands",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,Fleet,1.12,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Lenoir, North Carolina",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Mayes County, Oklahoma",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"Quilicura, Chile",1.13,1.14,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,Singapore,1.20,1.18,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2018 Q2,2018,Q2,"The Dalles, Oregon",1.13,1.14,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Berkeley County, South Carolina",1.15,1.12,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Changhua County, Taiwan",1.17,1.15,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Council Bluffs, Iowa",1.14,1.14,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Council Bluffs, Iowa (2nd facility)",1.11,1.10,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Douglas County, Georgia",1.16,1.12,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Dublin, Ireland",1.11,1.11,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Eemshaven, Netherlands",1.12,1.11,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,Fleet,1.13,1.11,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Hamina, Finland",1.10,1.09,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Lenoir, North Carolina",1.13,1.11,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Mayes County, Oklahoma",1.13,1.11,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"Quilicura, Chile",1.12,1.13,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,Singapore,1.18,1.18,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"St. Ghislain, Belgium",1.10,1.09,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"The Dalles, Oregon",1.13,1.13,https://datacenters.google/efficiency/
+2018 Q3,2018,Q3,"The Dalles, Oregon (2nd facility)",1.08,,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Berkeley County, South Carolina",1.10,1.12,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Changhua County, Taiwan",1.12,1.14,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Council Bluffs, Iowa",1.11,1.12,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Douglas County, Georgia",1.10,1.12,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Dublin, Ireland",1.12,1.11,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Eemshaven, Netherlands",1.10,1.11,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,Fleet,1.10,1.11,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Lenoir, North Carolina",1.09,1.11,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"Quilicura, Chile",1.10,1.12,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,Singapore,1.17,1.18,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"St. Ghislain, Belgium",1.10,1.09,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"The Dalles, Oregon",1.11,1.13,https://datacenters.google/efficiency/
+2018 Q4,2018,Q4,"The Dalles, Oregon (2nd facility)",1.24,,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Berkeley County, South Carolina",1.08,1.11,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Changhua County, Taiwan",1.11,1.14,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Council Bluffs, Iowa",1.12,1.12,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Douglas County, Georgia",1.10,1.12,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Dublin, Ireland",1.13,1.12,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Eemshaven, Netherlands",1.09,1.10,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,Fleet,1.09,1.11,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Lenoir, North Carolina",1.09,1.10,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"Quilicura, Chile",1.10,1.11,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,Singapore,1.15,1.17,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"The Dalles, Oregon",1.11,1.12,https://datacenters.google/efficiency/
+2019 Q1,2019,Q1,"The Dalles, Oregon (2nd facility)",1.07,,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Berkeley County, South Carolina",1.12,1.11,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Changhua County, Taiwan",1.14,1.13,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Council Bluffs, Iowa (2nd facility)",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Douglas County, Georgia",1.13,1.12,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Dublin, Ireland",1.13,1.12,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Eemshaven, Netherlands",1.09,1.10,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,Fleet,1.11,1.11,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Lenoir, North Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Mayes County, Oklahoma",1.11,1.10,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"Quilicura, Chile",1.09,1.10,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,Singapore,1.15,1.16,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"The Dalles, Oregon",1.11,1.12,https://datacenters.google/efficiency/
+2019 Q2,2019,Q2,"The Dalles, Oregon (2nd facility)",1.06,1.11,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Berkeley County, South Carolina",1.14,1.11,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Changhua County, Taiwan",1.15,1.13,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Council Bluffs, Iowa",1.14,1.12,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Council Bluffs, Iowa (2nd facility)",1.11,1.09,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Douglas County, Georgia",1.16,1.12,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Dublin, Ireland",1.13,1.12,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Eemshaven, Netherlands",1.10,1.09,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,Fleet,1.13,1.11,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Lenoir, North Carolina",1.12,1.10,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Mayes County, Oklahoma",1.15,1.10,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,Singapore,1.15,1.15,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"The Dalles, Oregon",1.12,1.11,https://datacenters.google/efficiency/
+2019 Q3,2019,Q3,"The Dalles, Oregon (2nd facility)",1.07,1.11,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Berkeley County, South Carolina",1.10,1.11,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Changhua County, Taiwan",1.12,1.13,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Council Bluffs, Iowa",1.10,1.12,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Council Bluffs, Iowa (2nd facility)",1.07,1.09,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Douglas County, Georgia",1.10,1.12,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Dublin, Ireland",1.10,1.12,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Eemshaven, Netherlands",1.08,1.09,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Lenoir, North Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,Singapore,1.14,1.15,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"The Dalles, Oregon",1.11,1.11,https://datacenters.google/efficiency/
+2019 Q4,2019,Q4,"The Dalles, Oregon (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Berkeley County, South Carolina",1.09,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Changhua County, Taiwan",1.11,1.13,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Douglas County, Georgia",1.09,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Dublin, Ireland",1.09,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Eemshaven, Netherlands",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Lenoir, North Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Mayes County, Oklahoma",1.10,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,Singapore,1.14,1.15,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"The Dalles, Oregon",1.11,1.11,https://datacenters.google/efficiency/
+2020 Q1,2020,Q1,"The Dalles, Oregon (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Berkeley County, South Carolina",1.11,1.11,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Changhua County, Taiwan",1.14,1.13,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Council Bluffs, Iowa (2nd facility)",1.09,1.10,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Douglas County, Georgia",1.10,1.11,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Dublin, Ireland",1.09,1.10,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Eemshaven, Netherlands",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,Fleet,1.11,1.10,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Jackson County, Alabama",1.19,,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Lenoir, North Carolina",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Mayes County, Oklahoma",1.12,1.12,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Montgomery County, Tennessee",1.17,,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"Quilicura, Chile",1.08,1.09,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,Singapore,1.15,1.14,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"The Dalles, Oregon",1.11,1.11,https://datacenters.google/efficiency/
+2020 Q2,2020,Q2,"The Dalles, Oregon (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Berkeley County, South Carolina",1.14,1.11,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Changhua County, Taiwan",1.15,1.13,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Council Bluffs, Iowa",1.13,1.11,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Council Bluffs, Iowa (2nd facility)",1.11,1.10,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Douglas County, Georgia",1.13,1.10,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Eemshaven, Netherlands",1.10,1.09,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,Fleet,1.13,1.11,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Jackson County, Alabama",1.21,,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Lenoir, North Carolina",1.12,1.09,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Mayes County, Oklahoma",1.16,1.12,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Montgomery County, Tennessee",1.20,,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"Quilicura, Chile",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,Singapore,1.14,1.14,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"St. Ghislain, Belgium",1.09,1.08,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"The Dalles, Oregon",1.11,1.11,https://datacenters.google/efficiency/
+2020 Q3,2020,Q3,"The Dalles, Oregon (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Berkeley County, South Carolina",1.09,1.11,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Changhua County, Taiwan",1.11,1.13,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Douglas County, Georgia",1.08,1.10,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Eemshaven, Netherlands",1.08,1.09,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Jackson County, Alabama",1.13,,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Mayes County, Oklahoma",1.10,1.12,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Montgomery County, Tennessee",1.11,,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"Quilicura, Chile",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,Singapore,1.13,1.14,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2020 Q4,2020,Q4,"The Dalles, Oregon (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Berkeley County, South Carolina",1.08,1.11,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Changhua County, Taiwan",1.10,1.12,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Douglas County, Georgia",1.08,1.10,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Eemshaven, Netherlands",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Jackson County, Alabama",1.11,1.16,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Loudoun County, Virginia",1.10,,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Loudoun County, Virginia (2nd facility)",1.14,,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Mayes County, Oklahoma",1.08,1.11,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Montgomery County, Tennessee",1.09,1.14,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"Quilicura, Chile",1.09,1.08,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,Singapore,1.12,1.13,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2021 Q1,2021,Q1,"The Dalles, Oregon (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Berkeley County, South Carolina",1.11,1.11,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Changhua County, Taiwan",1.13,1.12,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Council Bluffs, Iowa (2nd facility)",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Douglas County, Georgia",1.09,1.10,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Dublin, Ireland",1.10,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Eemshaven, Netherlands",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,Fleet,1.10,1.10,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Jackson County, Alabama",1.13,1.14,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Lenoir, North Carolina",1.10,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Loudoun County, Virginia",1.10,,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Loudoun County, Virginia (2nd facility)",1.15,,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Mayes County, Oklahoma",1.11,1.11,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Montgomery County, Tennessee",1.10,1.12,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"Quilicura, Chile",1.08,1.08,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"The Dalles, Oregon",1.11,1.10,https://datacenters.google/efficiency/
+2021 Q2,2021,Q2,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Berkeley County, South Carolina",1.13,1.11,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Changhua County, Taiwan",1.14,1.12,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Council Bluffs, Iowa",1.13,1.11,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Council Bluffs, Iowa (2nd facility)",1.11,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Douglas County, Georgia",1.12,1.10,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Eemshaven, Netherlands",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,Fleet,1.12,1.10,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Jackson County, Alabama",1.15,1.13,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Lenoir, North Carolina",1.11,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Loudoun County, Virginia",1.11,,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Loudoun County, Virginia (2nd facility)",1.16,,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Mayes County, Oklahoma",1.14,1.11,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Montgomery County, Tennessee",1.14,1.11,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"Quilicura, Chile",1.10,1.09,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"St. Ghislain, Belgium",1.09,1.08,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"The Dalles, Oregon",1.12,1.11,https://datacenters.google/efficiency/
+2021 Q3,2021,Q3,"The Dalles, Oregon (2nd facility)",1.07,1.06,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Berkeley County, South Carolina",1.09,1.10,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Changhua County, Taiwan",1.12,1.12,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Council Bluffs, Iowa",1.10,1.12,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Council Bluffs, Iowa (2nd facility)",1.07,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Douglas County, Georgia",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Eemshaven, Netherlands",1.08,1.08,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Henderson, Nevada",1.10,,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Jackson County, Alabama",1.11,1.13,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Loudoun County, Virginia",1.09,1.10,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Loudoun County, Virginia (2nd facility)",1.09,1.13,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Midlothian, Texas",1.17,,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Montgomery County, Tennessee",1.09,1.10,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Papillion, Nebraska",1.15,,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"Quilicura, Chile",1.10,1.09,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"The Dalles, Oregon",1.11,1.11,https://datacenters.google/efficiency/
+2021 Q4,2021,Q4,"The Dalles, Oregon (2nd facility)",1.05,1.06,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Central Ohio (New Albany), Ohio",1.14,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Changhua County, Taiwan",1.10,1.12,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Council Bluffs, Iowa (2nd facility)",1.07,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Douglas County, Georgia",1.08,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Eemshaven, Netherlands",1.06,1.08,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,Fleet,1.09,1.10,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Fredericia, Denmark",1.13,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Henderson, Nevada",1.09,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Jackson County, Alabama",1.10,1.12,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Loudoun County, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Loudoun County, Virginia (2nd facility)",1.08,1.11,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Midlothian, Texas",1.16,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Montgomery County, Tennessee",1.11,1.11,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Papillion, Nebraska",1.18,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"Quilicura, Chile",1.10,1.09,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,Singapore (2nd facility),1.23,,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"The Dalles, Oregon",1.10,1.11,https://datacenters.google/efficiency/
+2022 Q1,2022,Q1,"The Dalles, Oregon (2nd facility)",1.08,1.06,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Berkeley County, South Carolina",1.10,1.10,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Central Ohio (New Albany), Ohio",1.13,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Changhua County, Taiwan",1.13,1.12,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Council Bluffs, Iowa",1.12,1.12,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Council Bluffs, Iowa (2nd facility)",1.08,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Douglas County, Georgia",1.10,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Eemshaven, Netherlands",1.07,1.08,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,Fleet,1.10,1.10,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Fredericia, Denmark",1.11,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Henderson, Nevada",1.10,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Jackson County, Alabama",1.12,1.12,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Lenoir, North Carolina",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Loudoun County, Virginia",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Loudoun County, Virginia (2nd facility)",1.09,1.10,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Mayes County, Oklahoma",1.11,1.10,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Midlothian, Texas",1.18,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Montgomery County, Tennessee",1.12,1.11,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Papillion, Nebraska",1.12,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"Quilicura, Chile",1.09,1.10,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,Singapore,1.14,1.13,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,Singapore (2nd facility),1.23,,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"The Dalles, Oregon",1.09,1.11,https://datacenters.google/efficiency/
+2022 Q2,2022,Q2,"The Dalles, Oregon (2nd facility)",1.07,1.07,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Berkeley County, South Carolina",1.13,1.10,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Central Ohio (New Albany), Ohio",1.18,,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Changhua County, Taiwan",1.14,1.12,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Council Bluffs, Iowa",1.14,1.12,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Council Bluffs, Iowa (2nd facility)",1.10,1.08,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Douglas County, Georgia",1.12,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Eemshaven, Netherlands",1.08,1.07,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,Fleet,1.12,1.10,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Fredericia, Denmark",1.11,,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Henderson, Nevada",1.15,1.12,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Jackson County, Alabama",1.14,1.12,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Lenoir, North Carolina",1.11,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Loudoun County, Virginia",1.11,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Loudoun County, Virginia (2nd facility)",1.11,1.10,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Mayes County, Oklahoma",1.13,1.10,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Midlothian, Texas",1.19,1.18,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Montgomery County, Tennessee",1.14,1.12,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Papillion, Nebraska",1.13,1.14,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,Singapore (2nd facility),1.21,,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"Storey County, Nevada",1.29,,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2022 Q3,2022,Q3,"The Dalles, Oregon (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Central Ohio (New Albany), Ohio",1.13,1.14,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Changhua County, Taiwan",1.11,1.12,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Council Bluffs, Iowa",1.10,1.12,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Douglas County, Georgia",1.07,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,Fleet,1.08,1.10,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Fredericia, Denmark",1.12,1.12,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Henderson, Nevada",1.09,1.11,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Jackson County, Alabama",1.10,1.12,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Loudoun County, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Loudoun County, Virginia (2nd facility)",1.07,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Mayes County, Oklahoma",1.07,1.10,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Midlothian, Texas",1.12,1.16,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Montgomery County, Tennessee",1.08,1.11,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Papillion, Nebraska",1.10,1.13,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,Singapore (2nd facility),1.19,1.21,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"Storey County, Nevada",1.20,,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"The Dalles, Oregon",1.09,1.10,https://datacenters.google/efficiency/
+2022 Q4,2022,Q4,"The Dalles, Oregon (2nd facility)",1.05,1.07,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Central Ohio (New Albany), Ohio",1.13,1.14,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Changhua County, Taiwan",1.09,1.12,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Douglas County, Georgia",1.07,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Dublin, Ireland",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,Fleet,1.08,1.10,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Fredericia, Denmark",1.12,1.11,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Henderson, Nevada",1.07,1.10,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Jackson County, Alabama",1.09,1.11,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Loudoun County, Virginia",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Midlothian, Texas",1.11,1.14,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Montgomery County, Tennessee",1.10,1.11,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Papillion, Nebraska",1.12,1.12,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,Singapore (2nd facility),1.19,1.20,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"Storey County, Nevada",1.18,,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"The Dalles, Oregon",1.09,1.10,https://datacenters.google/efficiency/
+2023 Q1,2023,Q1,"The Dalles, Oregon (2nd facility)",1.07,1.07,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Berkeley County, South Carolina",1.11,1.10,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Central Ohio (New Albany), Ohio",1.10,1.13,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Changhua County, Taiwan",1.13,1.12,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Council Bluffs, Iowa (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Douglas County, Georgia",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Dublin, Ireland",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,Fleet,1.10,1.10,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Fredericia, Denmark",1.10,1.11,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Henderson, Nevada",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Jackson County, Alabama",1.11,1.11,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Lenoir, North Carolina",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Loudoun County, Virginia",1.08,1.08,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Loudoun County, Virginia (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Mayes County, Oklahoma",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Midlothian, Texas",1.14,1.14,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Montgomery County, Tennessee",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Papillion, Nebraska",1.09,1.11,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,Singapore (2nd facility),1.19,1.20,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"Storey County, Nevada",1.20,1.22,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q2,2023,Q2,"The Dalles, Oregon (2nd facility)",1.07,1.06,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Berkeley County, South Carolina",1.14,1.11,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Central Ohio (New Albany), Ohio",1.11,1.11,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Changhua County, Taiwan",1.15,1.12,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Council Bluffs, Iowa",1.14,1.11,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Council Bluffs, Iowa (2nd facility)",1.09,1.08,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Douglas County, Georgia",1.13,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Dublin, Ireland",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Eemshaven, Netherlands",1.09,1.07,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,Fleet,1.12,1.10,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Fredericia, Denmark",1.08,1.11,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Hamina, Finland",1.10,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Henderson, Nevada",1.10,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Jackson County, Alabama",1.13,1.11,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Lenoir, North Carolina",1.12,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Loudoun County, Virginia",1.10,1.08,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Loudoun County, Virginia (2nd facility)",1.11,1.08,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Mayes County, Oklahoma",1.14,1.10,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Midlothian, Texas",1.16,1.13,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Montgomery County, Tennessee",1.13,1.10,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Papillion, Nebraska",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,Singapore (2nd facility),1.19,1.19,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"St. Ghislain, Belgium",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"Storey County, Nevada",1.24,1.21,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q3,2023,Q3,"The Dalles, Oregon (2nd facility)",1.08,1.06,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Central Ohio (New Albany), Ohio",1.08,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Changhua County, Taiwan",1.11,1.12,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Douglas County, Georgia",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Eemshaven, Netherlands",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,Fleet,1.08,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Fredericia, Denmark",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Henderson, Nevada",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Jackson County, Alabama",1.09,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Lenoir, North Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Loudoun County, Virginia",1.09,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Midlothian, Texas",1.10,1.13,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Montgomery County, Tennessee",1.09,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Papillion, Nebraska",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,Singapore (2nd facility),1.17,1.19,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"Storey County, Nevada",1.14,1.19,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2023 Q4,2023,Q4,"The Dalles, Oregon (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Central Ohio (New Albany), Ohio",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Changhua County, Taiwan",1.10,1.12,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Council Bluffs, Iowa",1.12,1.12,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Douglas County, Georgia",1.07,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,Fleet,1.08,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Fredericia, Denmark",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Hamina, Finland",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Henderson, Nevada",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Jackson County, Alabama",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Lenoir, North Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Loudoun County, Virginia",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Mayes County, Oklahoma",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Midlothian, Texas",1.09,1.12,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Montgomery County, Tennessee",1.09,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Papillion, Nebraska",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Quilicura, Chile",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,Singapore (2nd facility),1.16,1.18,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"St. Ghislain, Belgium",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"Storey County, Nevada",1.12,1.17,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2024 Q1,2024,Q1,"The Dalles, Oregon (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Berkeley County, South Carolina",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Central Ohio (New Albany), Ohio",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Changhua County, Taiwan",1.13,1.12,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Council Bluffs, Iowa",1.11,1.12,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Council Bluffs, Iowa (2nd facility)",1.07,1.07,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Douglas County, Georgia",1.10,1.09,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Eemshaven, Netherlands",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,Fleet,1.10,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Fredericia, Denmark",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Hamina, Finland",1.10,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Henderson, Nevada",1.09,1.08,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Jackson County, Alabama",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Lenoir, North Carolina",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Loudoun County, Virginia",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Loudoun County, Virginia (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Mayes County, Oklahoma",1.12,1.11,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Midlothian, Texas",1.12,1.11,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Montgomery County, Tennessee",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Papillion, Nebraska",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Quilicura, Chile",1.09,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,Singapore (2nd facility),1.15,1.17,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"Storey County, Nevada",1.16,1.16,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2024 Q2,2024,Q2,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Berkeley County, South Carolina",1.13,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Central Ohio (Columbus), Ohio",1.05,,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Central Ohio (Lancaster), Ohio",1.04,,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Central Ohio (New Albany), Ohio",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Changhua County, Taiwan",1.15,1.12,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Council Bluffs, Iowa",1.13,1.11,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Council Bluffs, Iowa (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Douglas County, Georgia",1.12,1.09,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Dublin, Ireland",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Eemshaven, Netherlands",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,Fleet,1.11,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Fredericia, Denmark",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Hamina, Finland",1.10,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Henderson, Nevada",1.11,1.09,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Jackson County, Alabama",1.13,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Lenoir, North Carolina",1.24,1.13,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Loudoun County, Virginia",1.11,1.09,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Loudoun County, Virginia (2nd facility)",1.09,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Mayes County, Oklahoma",1.14,1.11,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Midlothian, Texas",1.13,1.11,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Montgomery County, Tennessee",1.13,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Papillion, Nebraska",1.10,1.09,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Quilicura, Chile",1.09,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,Singapore (2nd facility),1.15,1.16,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"Storey County, Nevada",1.22,1.17,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"The Dalles, Oregon",1.11,1.10,https://datacenters.google/efficiency/
+2024 Q3,2024,Q3,"The Dalles, Oregon (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Berkeley County, South Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Central Ohio (Columbus), Ohio",1.05,1.06,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Central Ohio (Lancaster), Ohio",1.04,,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Central Ohio (New Albany), Ohio",1.05,1.07,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Changhua County, Taiwan",1.12,1.13,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Council Bluffs, Iowa",1.09,1.11,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Council Bluffs, Iowa (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Douglas County, Georgia",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Eemshaven, Netherlands",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,Fleet,1.08,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Fredericia, Denmark",1.07,1.07,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Hamina, Finland",1.09,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Henderson, Nevada",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Inzai, Japan",1.15,,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Jackson County, Alabama",1.09,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Lenoir, North Carolina",1.08,1.13,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Loudoun County, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Mayes County, Oklahoma",1.09,1.11,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Midlothian, Texas",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Montgomery County, Tennessee",1.08,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Papillion, Nebraska",1.08,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,RLF-New Campus,1.06,,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,Singapore (2nd facility),1.14,1.15,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"St. Ghislain, Belgium",1.07,1.08,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"Storey County, Nevada",1.11,1.16,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2024 Q4,2024,Q4,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Berkeley County, South Carolina",1.07,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Bristow, Virginia",1.07,,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Central Ohio (Columbus), Ohio",1.05,1.05,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Central Ohio (Lancaster), Ohio",1.04,1.04,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Central Ohio (New Albany), Ohio",1.05,1.06,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Changhua County, Taiwan",1.10,1.12,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Council Bluffs, Iowa (2nd facility)",1.07,1.07,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Douglas County, Georgia",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Eemshaven, Netherlands",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,Fleet,1.08,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Fredericia, Denmark",1.07,1.07,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Hamina, Finland",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Henderson, Nevada",1.07,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Inzai, Japan",1.12,,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Jackson County, Alabama",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Lenoir, North Carolina",1.08,1.13,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Loudoun County, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Mayes County, Oklahoma",1.09,1.11,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Midlothian, Texas",1.08,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Montgomery County, Tennessee",1.08,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Omaha, Nebraska",1.06,,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Papillion, Nebraska",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Quilicura, Chile",1.09,1.09,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,Singapore,1.12,1.13,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,Singapore (2nd facility),1.14,1.15,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"St. Ghislain, Belgium",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"Storey County, Nevada",1.09,1.14,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2025 Q1,2025,Q1,"The Dalles, Oregon (2nd facility)",1.06,1.07,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Berkeley County, South Carolina",1.11,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Bristow, Virginia",1.08,1.07,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Central Ohio (Columbus), Ohio",1.05,1.05,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Central Ohio (Lancaster), Ohio",1.04,1.04,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Central Ohio (New Albany), Ohio",1.07,1.06,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Changhua County, Taiwan",1.14,1.13,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Council Bluffs, Iowa",1.11,1.11,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Council Bluffs, Iowa (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Douglas County, Georgia",1.10,1.09,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,Fleet,1.10,1.09,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Fredericia, Denmark",1.06,1.07,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Hamina, Finland",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Henderson, Nevada",1.09,1.09,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Inzai, Japan",1.14,,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Jackson County, Alabama",1.11,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Lenoir, North Carolina",1.10,1.13,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Loudoun County, Virginia",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Loudoun County, Virginia (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Mayes County, Oklahoma",1.16,1.12,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Midlothian, Texas",1.11,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Montgomery County, Tennessee",1.11,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Omaha, Nebraska",1.04,,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Papillion, Nebraska",1.09,1.09,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Quilicura, Chile",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,Singapore,1.13,1.13,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,Singapore (2nd facility),1.15,1.14,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"Storey County, Nevada",1.16,1.14,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2025 Q2,2025,Q2,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Berkeley County, South Carolina",1.12,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Bristow, Virginia",1.12,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Central Ohio (Columbus), Ohio",1.07,1.06,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Central Ohio (Lancaster), Ohio",1.04,1.04,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Central Ohio (New Albany), Ohio",1.07,1.06,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Changhua County, Taiwan",1.16,1.13,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Council Bluffs, Iowa",1.14,1.11,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Council Bluffs, Iowa (2nd facility)",1.10,1.08,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Douglas County, Georgia",1.12,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Eemshaven, Netherlands",1.08,1.07,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,Fleet,1.11,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Fredericia, Denmark",1.06,1.07,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Hamina, Finland",1.10,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Henderson, Nevada",1.12,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Inzai, Japan",1.14,1.14,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Jackson County, Alabama",1.13,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Lenoir, North Carolina",1.12,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Loudoun County, Virginia",1.10,1.08,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Loudoun County, Virginia (2nd facility)",1.10,1.08,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Mayes County, Oklahoma",1.15,1.12,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Midlothian, Texas",1.13,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Montgomery County, Tennessee",1.10,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Omaha, Nebraska",1.04,,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Papillion, Nebraska",1.11,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Quilicura, Chile",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,Singapore,1.12,1.13,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,Singapore (2nd facility),1.15,1.14,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"St. Ghislain, Belgium",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"Storey County, Nevada",1.22,1.15,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"The Dalles, Oregon",1.11,1.10,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"The Dalles, Oregon (2nd facility)",1.08,1.07,https://datacenters.google/efficiency/
+2025 Q3,2025,Q3,"The Dalles, Oregon (3rd facility)",1.09,,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Berkeley County, South Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Bristow, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Central Ohio (Columbus), Ohio",1.05,1.06,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Central Ohio (Lancaster), Ohio",1.04,1.04,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Central Ohio (New Albany), Ohio",1.06,1.06,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Changhua County, Taiwan",1.12,1.13,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Council Bluffs, Iowa",1.09,1.11,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Douglas County, Georgia",1.07,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,Fleet,1.08,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Fredericia, Denmark",1.06,1.07,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Hamina, Finland",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Henderson, Nevada",1.08,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Inzai, Japan",1.07,1.11,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Jackson County, Alabama",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Lenoir, North Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Loudoun County, Virginia",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Loudoun County, Virginia (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Mayes County, Oklahoma",1.09,1.12,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Midlothian, Texas",1.09,1.10,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Montgomery County, Tennessee",1.06,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Omaha, Nebraska",1.05,1.05,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Papillion, Nebraska",1.07,1.09,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Quilicura, Chile",1.08,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,Singapore,1.12,1.12,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,Singapore (2nd facility),1.14,1.14,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"St. Ghislain, Belgium",1.07,1.08,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"Storey County, Nevada",1.11,1.14,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2025 Q4,2025,Q4,"The Dalles, Oregon (3rd facility)",1.07,,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Berkeley County, South Carolina",1.08,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Bristow, Virginia",1.07,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Central Ohio (Columbus), Ohio",1.06,1.06,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Central Ohio (Lancaster), Ohio",1.04,1.04,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Central Ohio (New Albany), Ohio",1.07,1.06,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Changhua County, Taiwan",1.11,1.13,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Council Bluffs, Iowa",1.10,1.11,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Council Bluffs, Iowa (2nd facility)",1.07,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Douglas County, Georgia",1.07,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Dublin, Ireland",1.08,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Eemshaven, Netherlands",1.07,1.07,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,Fleet,1.08,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Fredericia, Denmark",1.06,1.06,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Hamina, Finland",1.10,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Henderson, Nevada",1.08,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Inzai, Japan",1.08,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Jackson County, Alabama",1.09,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Lenoir, North Carolina",1.08,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"London, England",1.26,,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Loudoun County, Virginia",1.07,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Loudoun County, Virginia (2nd facility)",1.08,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Mayes County, Oklahoma",1.08,1.11,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Mesa, Arizona",1.22,,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Midlothian, Texas",1.08,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Montgomery County, Tennessee",1.09,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Omaha, Nebraska",1.05,1.05,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Papillion, Nebraska",1.07,1.09,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Quilicura, Chile",1.08,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Red Oak, Texas",1.10,,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,Singapore,1.12,1.12,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,Singapore (2nd facility),1.14,1.14,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"St. Ghislain, Belgium",1.07,1.08,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"Storey County, Nevada",1.11,1.15,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"The Dalles, Oregon",1.10,1.10,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"The Dalles, Oregon (2nd facility)",1.06,1.06,https://datacenters.google/efficiency/
+2026 Q1,2026,Q1,"The Dalles, Oregon (3rd facility)",1.07,,https://datacenters.google/efficiency/

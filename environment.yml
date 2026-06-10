@@ -10,4 +10,12 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - seaborn
+  - scikit-learn
+  - sympy
+  - numba
+  - numexpr
+  - numpydoc
+  - sphinx
+  - beautifulsoup4
 prefix: /opt/conda/envs/space-orekit

@@ -1,0 +1,300 @@
+Power usage effectiveness â Google Data Centers
+Jump to Content
+Data Centers
+Careers
+Explore locations
+Data Centers
+Investing in communities
+Accelerating economies
+Workforce development & education
+Expanding access
+Advancing security
+Operating sustainably
+Overview
+Water stewardship
+Energy solutions
+Power efficiency
+Discover more
+Overview
+Latest news
+Podcast
+Photo gallery
+FAQ
+Careers
+Explore locations
+Search Google Data Centers
+Careers
+Explore locations
+Growing the internet while reducing energy consumption
+We strive to build the worldâs most energy-efficient computing infrastructure, outfitting each Google data center with high-performance servers designed to use as little energy as possible compared to the amount of data they process.
+Google Data Center PUE measurement boundaries. In 2024, the average annual power usage effectiveness for our global fleet of data centers was 1.09.
+Googleâs comprehensive approach to measuring Power Usage Effectiveness (PUE)
+Our calculations are based on continuously measuring the entire worldwide fleet performance of our data centers throughout the year. We report a comprehensive trailing twelve-month (TTM) PUE of 1.09 across all our large-scale data centers (once they reach stable operations), in all seasons, including all sources of overhead.
+When compared with the industry average of 1.56, our data centers used about 84% less overhead energy for every unit of IT equipment energy. By going beyond the Green Grid's PUE measurement standards
+, our fleet-wide PUE has dropped significantly since we first started reporting our numbers in 2008. See how our performance below continues to set the industry benchmark for PUE efficiency.
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2026 PUE Yearly Report
+Quarter 01
+Quarter 01
+Fleet wide PUE
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Fleet
+1.08
+1.09
+Campuses
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Berkeley County, South Carolina
+1.08
+1.09
+Bristow, Virginia
+1.07
+1.09
+Central Ohio (Columbus), Ohio
+1.06
+1.06
+Central Ohio (Lancaster), Ohio
+1.04
+1.04
+Central Ohio (New Albany), Ohio
+1.07
+1.06
+Changua County, Taiwan
+1.11
+1.13
+Council Bluffs, Iowa
+1.1
+1.11
+Council Bluffs, Iowa (2nd facility)
+1.07
+1.08
+Douglas County, Georgia
+1.07
+1.09
+Dublin, Ireland
+1.08
+1.08
+Eemshaven, Netherlands
+1.07
+1.07
+Fredericia, Denmark
+1.06
+1.06
+Hamina, Finland
+1.1
+1.1
+Henderson, Nevada
+1.08
+1.09
+Inzai, Japan
+1.08
+1.1
+Jackson County, Alabama
+1.09
+1.1
+Lenoir, North Carolina
+1.08
+1.1
+London, England
+1.26
+Loudoun County, Virginia
+1.07
+1.08
+Loudoun County, Virginia (2nd facility)
+1.08
+1.08
+Mayes County, Oklahoma
+1.08
+1.11
+Mesa, Arizona
+1.22
+Midlothian, Texas
+1.08
+1.1
+Montgomery County, Tennessee
+1.09
+1.09
+Omaha, Nebraska
+1.05
+1.05
+Papillion, Nebraska
+1.07
+1.09
+Quilicura, Chile
+1.08
+1.08
+Red Oak, Texas
+1.1
+Singapore
+1.12
+1.12
+Singapore (2nd facility)
+1.14
+1.14
+St. Ghislain, Belgium
+1.07
+1.08
+Storey County, Nevada
+1.11
+1.15
+The Dalles, Oregon
+1.1
+1.1
+The Dalles, Oregon (2nd facility)
+1.06
+1.06
+The Dalles, Oregon (3rd facility)
+1.07
+*We report individual campus TTM PUE only for campuses with at least twelve months of data.
+2025 PUE Yearly Report
+Quarter 01
+Quarter 02
+Quarter 03
+Quarter 04
+Quarter 01
+Fleet wide PUE
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Fleet
+1.08
+1.09
+Campuses
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Berkeley County, South Carolina
+1.07
+1.1
+Bristow, Virginia
+1.07
+Central Ohio (Columbus), Ohio
+1.05
+1.05
+Central Ohio (Lancaster), Ohio
+1.04
+1.04
+Central Ohio (New Albany), Ohio
+1.05
+1.06
+Changua County, Taiwan
+1.1
+1.12
+Council Bluffs, Iowa
+1.1
+1.11
+Council Bluffs, Iowa (2nd facility)
+1.07
+1.07
+Douglas County, Georgia
+1.08
+1.09
+Dublin, Ireland
+1.08
+1.08
+Eemshaven, Netherlands
+1.07
+1.08
+Fredericia, Denmark
+1.07
+1.07
+Hamina, Finland
+1.09
+1.1
+Henderson, Nevada
+1.07
+1.09
+Inzai, Japan
+1.12
+Jackson County, Alabama
+1.09
+1.1
+Lenoir, North Carolina
+1.08
+1.13
+Loudoun County, Virginia
+1.07
+1.09
+Loudoun County, Virginia (2nd facility)
+1.07
+1.08
+Mayes County, Oklahoma
+1.09
+1.11
+Midlothian, Texas
+1.08
+1.1
+Montgomery County, Tennessee
+1.08
+1.1
+Omaha, Nebraska
+1.06
+Papillion, Nebraska
+1.08
+1.09
+Quilicura, Chile
+1.09
+1.09
+Singapore
+1.12
+1.13
+Singapore (2nd facility)
+1.14
+1.15
+St. Ghislain, Belgium
+1.07
+1.08
+Storey County, Nevada
+1.09
+1.14
+The Dalles, Oregon
+1.1
+1.1
+The Dalles, Oregon (2nd facility)
+1.06
+1.07
+*We report individual campus TTM PUE only for campuses with at least twelve months of data.
+For Q1 2025, TTM PUE was 1.09 and quarterly PUE was 1.08.
+Quarter 02
+Fleet wide PUE
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Fleet
+1.10
+1.09
+Campuses
+Quarterly PUE
+Trailing twelve-month (TTM) PUE
+Berkeley County, South Carolina
+1.11
+1.10
+Bristow, Virginia
+1.08
+1.07
+Central Ohio (Columbus), Ohio
+1.05
+1.05
+Central Ohio (Lancaster), Ohio
+1.04
+1.04
+Central Ohio (New Albany), Ohio
+1.07
+1.06
+Changua County, Taiwan
