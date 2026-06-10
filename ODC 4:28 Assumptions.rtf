@@ -1,0 +1,360 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-Italic;\f4\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww21380\viewh15380\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 .At 100 MW the model outputs 
+\f1\b ~269,000 m\'b2 of PV array
+\f0\b0  (~519 \'d7 519 m) and 
+\f1\b ~298,000 m\'b2 of radiator
+\f0\b0  (~546 \'d7 546 m). Now let's work through every assumption embedded in those numbers, roughly in the order the model computes them.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 1. P_load = 100 MW means 100 MW of waste heat\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  All electrical power drawn by the compute hardware is eventually converted to heat and must be rejected by the radiator. The model passes 
+\f2\fs26 P_load
+\f0\fs24  directly to both the PV sizer and the radiator sizer as if they are the same number.\
+
+\f1\b What this implies:
+\f0\b0  A PUE (Power Usage Effectiveness) of exactly 1.0 \'97 zero overhead for power conditioning, fluid pumps, attitude control, or any ancillary systems. In reality, even a space-based system has parasitic loads. Power conditioning alone (MPPT, DC-DC converters) typically runs at 90\'9695% efficiency, meaning 5\'9610% of your 100 MW is lost as heat in the electronics before it even reaches the compute hardware. A more honest model would set P_load_compute = 100 MW and add a multiplier: P_total = P_load / \uc0\u951 _power_conditioning \u8776  105\'96111 MW. This grows both areas by ~5\'9610%.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 2. Altitude = 400 km, Beta angle = 23.5\'b0\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  A sun-synchronous / terminator-style LEO orbit at ISS altitude. The 23.5\'b0 beta angle is just past the continuous-sunlight threshold at 400 km (~20\'b0), so CF = 1.0.\
+
+\f1\b What this means for the model:
+\f0\b0  The eclipse model is sensitive here. At \uc0\u946  = 20\'b0 the orbit just barely stays in full sun. At \u946  = 0\'b0 (equatorial), CF drops to ~0.89, which forces the PV array to be ~12% larger. The orbit choice is doing real work \'97 if the beta angle drifts seasonally (which it does for real orbits), the actual CF will vary and the PV array needs to be sized for the worst case, not the annual average.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 3. View factor: F_earth = 0.3307\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  Computed from the exact geometric formula: F_earth = 0.5 \'d7 (1 \uc0\u8722  \u8730 (1 \u8722  (R_E / (R_E + h))\'b2))\
+This gives the fraction of the radiator's hemispherical field of view occupied by Earth's disk. At 400 km, Earth subtends a very large solid angle \'97 about one-third of the hemisphere \'97 so F_earth = 0.33.\
+
+\f1\b What this ignores:
+\f0\b0  The formula assumes a flat, isotropically emitting radiator panel pointed straight down at Earth. A real radiator would be oriented to face deep space (away from Earth), which would reduce F_earth significantly, giving a smaller radiator. Our model is therefore 
+\f3\i conservative
+\f0\i0  \'97 it assumes the worst-case geometry where the radiator fully "sees" the Earth below it rather than the cold deep space above.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 4. Capacity factor and PV sizing\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  CF = 1.0, so the PV array only needs to produce exactly 100 MW in sunlight \'97 no oversizing needed to charge batteries for eclipse periods.\
+
+\f1\b What this ignores:
+\f0\b0  Even at CF = 1.0, a real system needs margin. Orbit perturbations, seasonal beta angle variation, and attitude control errors can all briefly interrupt full solar exposure. A flight-ready design would apply a margin of ~10\'9620% to the array. We don't include that here.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 5. Triple-junction GaAs efficiency \uc0\u951 _PV = 32%\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  Beginning-of-life (BOL) efficiency for the best current space-heritage triple-junction cells. This is a real, achievable number (Spectrolab and Azur Space cells are already there).\
+
+\f1\b What this ignores \'97 and it's significant:
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 End-of-life degradation.
+\f0\b0  In LEO, radiation fluence degrades GaAs cells at roughly 1\'962% relative per year. After a 10-year mission, efficiency could be down to ~26\'9628%. The array should really be sized to the end-of-life value, which would increase A_PV by ~12\'9623%.\
+\ls1\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Temperature penalty.
+\f0\b0  Space PV cells run hot in full sun \'97 easily 60\'9680\'b0C \'97 and GaAs cells lose about 0.05\'960.07%/\'b0C efficiency above the standard test temperature. At 80\'b0C above standard (28\'b0C), you'd lose ~4\'965% efficiency.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Both effects together could realistically push effective \uc0\u951 _PV down from 32% to ~24\'9626%, increasing the PV array area by 20\'9630%.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 6. PV derating factor = 0.85\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  A flat 15% system loss covering wiring resistance, mismatch between cells, power conditioning efficiency, and a catch-all for real-world degradation.\
+
+\f1\b What's bundled in here:
+\f0\b0  This is intentionally a lumped parameter. It's a reasonable engineering rule of thumb but it partially double-counts with the radiation degradation mentioned above. If you wanted to be more rigorous, you'd separate out: (a) power conditioning efficiency ~0.93, (b) wiring/mismatch ~0.97, (c) radiation EOL factor ~0.85, giving a combined ~0.77, not 0.85. That would increase A_PV by ~10%.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 7. Radiator emissivity \uc0\u949  = 0.90\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  A high-quality passive RC coating \'97 BaSO
+\f4 \uc0\u8324 
+\f0  paint, optical solar reflectors (OSRs), or similar \'97 as tabulated in Fan et al. Table 2. Achievable today with proven flight heritage.\
+
+\f1\b What this ignores:
+\f0\b0  Emissivity degrades over mission life in LEO due to atomic oxygen (AO) erosion and VUV radiation. The paper discusses this qualitatively but doesn't give a simple annual degradation rate. If \uc0\u949  drops from 0.90 to 0.80 over the mission, the radiator area would need to increase by ~13%.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 8. Solar absorptance \uc0\u945 _solar = 0.05\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  An idealized low-\uc0\u945  coating \'97 essentially the best available today for space-facing surfaces. This is what makes the albedo term (6.8 W/m\'b2) so small relative to the Earth IR term (70.5 W/m\'b2).\
+
+\f1\b The consequence:
+\f0\b0  The albedo load is nearly negligible in the model. If \uc0\u945 _solar degrades to 0.15 (a realistic AO-degraded value after several years in LEO), the albedo flux would triple and the net cooling flux would drop from 336 to ~327 W/m\'b2 \'97 a 3% radiator area increase. Minor but not zero.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 9. Radiator temperature T_rad = 300 K (27\'b0C)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 This is the single most consequential assumption in the entire model.
+\f0\b0  The radiator area scales as 1/T
+\f4 \uc0\u8308 
+\f0 , so small changes matter enormously:\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\f1\b \cf0 T_rad\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 A_rad\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b0 \cf0 260 K\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~641,000 m\'b2\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 280 K\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~423,000 m\'b2\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 300 K
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 ~298,000 m\'b2
+\f0\b0 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 320 K\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~218,000 m\'b2\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth640\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1236\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 350 K\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~145,000 m\'b2\cell \lastrow\row
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 What sets T_rad in reality:
+\f0\b0  The radiator surface temperature is not a free design parameter \'97 it's determined by the thermal resistance chain from the chip junction down to the radiator face. Roughly: T_rad = T_chip \uc0\u8722  (Q \'d7 R_thermal), where R_thermal includes the cold plate, the working fluid loop, the heat pipe condenser, and the panel-to-coating interface. Modern GPU junction temperatures are capped around 85\'9695\'b0C (358\'96368 K). If you can run the radiator at 350 K (still well below chip limits), your required area drops by more than half versus the 300 K assumption. This is probably the most important refinement to add to the model.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 10. Radiator faces away from the Sun (P_solar \uc0\u8776  0)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  The radiator is oriented toward deep space, so the direct solar term is zeroed out. This is the optimal attitude for cooling.\
+
+\f1\b What this requires:
+\f0\b0  Active attitude control to maintain this orientation throughout the orbit. The PV array simultaneously needs to face the Sun, and the radiator needs to face away \'97 these are geometrically compatible for a well-designed structure (PV on the sun-facing side, radiator on the deep-space-facing side), but any attitude control failure immediately loads the radiator with up to 1367 \'d7 \uc0\u945 _solar \'d7 A_rad of solar heat. Even at \u945  = 0.05, that's ~68 W/m\'b2 \'97 more than the Earth IR term.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 11. Earth IR: H_earth = 237 W/m\'b2\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  Constant planetary infrared emission, taken directly from Fan et al. This is the global annual average.\
+
+\f1\b What varies in reality:
+\f0\b0  Earth's IR emission varies with latitude, season, and cloud cover. Polar orbits see systematically lower values (~220 W/m\'b2); tropical orbits see higher (~260 W/m\'b2). At 400 km, the spacecraft completes one orbit every ~92 minutes so it averages over a range of conditions. The 237 W/m\'b2 is a defensible central estimate.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 12. Earth albedo R_earth = 0.30\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Assumption:
+\f0\b0  Global average Bond albedo, also from Fan et al. The actual albedo varies from ~0.06 over oceans to ~0.90 over fresh snow, and the albedo term in our model is small anyway (6.8 vs. 70.5 W/m\'b2 for Earth IR), so this assumption has minimal impact on the result.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 Summary of which assumptions matter most\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf0 Assumption\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Impact on A_rad\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Impact on A_PV\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 T_rad = 300 K
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Very high (T
+\f4 \uc0\u8308 
+\f0  scaling)\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 PUE = 1.0
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~5\'9610% underestimate\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~5\'9610% underestimate\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 \uc0\u951 _PV = 32% BOL
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~20\'9630% underestimate at EOL\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 CF = 1.0
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~12% underestimate if \uc0\u946  drifts\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 F_earth (geometry)
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Moderate (~29% vs. deep space)\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 \uc0\u949  = 0.90 constant
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ~13% underestimate at EOL\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 \uc0\u945 _solar = 0.05
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Minor\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2108\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth3148\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3095\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf0 H_earth = 237 W/m\'b2
+\f0\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Minor\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 None\cell \lastrow\row
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+The two highest-priority refinements for a more defensible model are (1) replacing T_rad = 300 K with a chip-to-radiator thermal resistance calculation, and (2) using end-of-life PV efficiency rather than BOL.\
+}
