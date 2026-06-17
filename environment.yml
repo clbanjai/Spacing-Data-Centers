@@ -18,4 +18,7 @@ dependencies:
   - numpydoc
   - sphinx
   - beautifulsoup4
+  - xarray
+  - dask
+  - netCDF4
 prefix: /opt/conda/envs/space-orekit
