@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+launch_emissions_2019_v1.2.nc
